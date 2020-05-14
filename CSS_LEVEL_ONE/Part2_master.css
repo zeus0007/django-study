@@ -1,0 +1,20 @@
+body {
+  background: url(https://lh3.googleusercontent.com/proxy/MiKe_LE-7JYNlAtZL5ml9DI12y2y3XFFLH-bNW6-BHjcxsbA0UEdenPjm9k5H0zSHpQBqtIr1kYqi-kTMp8bU77tRrmz4XqgNjZDnAB1ujaiV_UTZU9L2mU9aTYm7Iy4Y0sVtVYN6ReQ0gBiAmrilrfoRDsj1XfY4c7JNAmMUTNT-KYlW97_0BrNuLJiXP3yU4GAZdaNGbr2kvOTkkipwx4lmm_A6eo6924qhUg5FGK_egwlZBoLCJXkVSWvbWSU2Ceq_H6esWdhNZ2IuqzNVVRq3mk4gaGXQJQu5c88EgJVxA);
+  background-repeat: no-repeat;
+}
+
+div {
+  background-color: blue;
+  border-color: orange;
+  border-width: 4px;
+  border-style: double;
+}
+
+p {
+  color: yellow;
+}
+
+span {
+  background: red;
+  color: black;
+}

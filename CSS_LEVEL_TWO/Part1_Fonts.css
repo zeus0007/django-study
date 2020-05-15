@@ -3,22 +3,5 @@ h1 {
 }
 
 p {
-  font-family: monospace;
-}
-
-body {
-  font-size: 20px;
-}
-
-#two {
-  font-size: 1em;
-}
-
-p {
-  font-style: italic;
-  font-weight: bold;
-}
-
-h1 {
-  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
 }

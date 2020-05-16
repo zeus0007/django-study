@@ -1,0 +1,32 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+h2 {
+  font-family: "Pangolin", cursive;
+}
+table {
+  margin: auto;
+}
+.row {
+  width: 150px;
+  height: 450px;
+  background-color: black;
+  border: 5px solid white;
+}
+#col1 {
+  background-color: #087e8b;
+  border: 5px solid white;
+}
+#col2 {
+  background-color: #ff5a5f;
+}
+#col3 {
+  background-color: #3c3c3c;
+}
+#col4 {
+  background-color: #f5f5f5;
+}
+#col5 {
+  background-color: #c1839f;
+}

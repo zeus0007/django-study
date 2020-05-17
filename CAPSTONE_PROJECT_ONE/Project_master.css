@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #011627;
+  margin: 0px;
+  border: 1px solid #2ec4b6;
+  border-width: 0px 60px 60px 60px;
+  color: white;
+  padding: 0px 200px 0px 200px;
+}
+
+p {
+  margin-top: 80px;
+}
+input {
+  margin-bottom: 10px;
+}
+.textBox {
+  width: 300px;
+  height: 30px;
+}
+#button {
+  width: 150px;
+  height: 80px;
+
+  background-color: orange;
+  border-radius: 20px;
+  font-size: 20px;
+}

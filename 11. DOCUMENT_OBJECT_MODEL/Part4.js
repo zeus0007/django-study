@@ -3,6 +3,7 @@ var restart = document.querySelector("#restartBtn");
 
 //리스타트 함수
 restart.addEventListener("click", function () {
+  //tds가 array로 넘어오길래 of 사용
   for (td of tds) {
     resetStatus(td);
   }

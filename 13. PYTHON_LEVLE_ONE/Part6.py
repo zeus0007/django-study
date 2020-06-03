@@ -26,7 +26,7 @@ print(s[4:])
 # Bonus: Use indexing to reverse the string
 converted = s[5] + s[4] + s[3] + s[2] + s[1] + s[0]
 print(converted)
-#
+# 아래 방법을 기억하자
 solutionConvert = s[::-1]
 print(solutionConvert)
 

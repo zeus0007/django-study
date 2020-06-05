@@ -102,7 +102,7 @@ deck = d.splitting()
 
 hand1 = Hand(deck["player1"])
 hand2 = Hand(deck["player2"])
-if(hand1.deck[0][1] == hand2.deck[0][1])
+# if(hand1.deck[0][1] == hand2.deck[0][1]):
 
 # 중단
 # 양쪽 덱 비교 필요 (숫자 비교)

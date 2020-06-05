@@ -102,3 +102,13 @@ deck = d.splitting()
 
 hand1 = Hand(deck["player1"])
 hand2 = Hand(deck["player2"])
+if(hand1.deck[0][1] == hand2.deck[0][1])
+
+# 중단
+# 양쪽 덱 비교 필요 (숫자 비교)
+# 비교 후 이긴 쪽 덱 맨 위에 카드 넣기
+# 위 과정 반복
+# (숫자가 같을 시)
+# 세장 카드 비교 후 승리 횟수 누적
+# 승자 판별 후 승자 덱에 카드 추가
+# 반복

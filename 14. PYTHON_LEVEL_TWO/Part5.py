@@ -55,7 +55,9 @@ def multi_re_find(patterns, phrase):
 
 test_phrase = 'This is a string with numbers 12312 and a symbol #hashtag'
 
-test_patterns = [r'\d+']
+test_patterns = [r'\d+']  # \d는 숫자를 가져오고 \D는 숫자가 아닌것들을 가져옴
+# \s는 스페이스 \S 스페이스가 아닌것들을 가져옴
+# \w는 특수문자를 제외한 일반 문자 \W는 특수문자만 가져옴(띄어쓰기 포함)
 
 
 print(test_patterns)

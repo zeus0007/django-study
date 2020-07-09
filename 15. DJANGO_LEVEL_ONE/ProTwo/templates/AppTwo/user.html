@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Second Project</title>
+  </head>
+  <body>
+    <h1>Here are your users:</h1>
+    <ol>
+      {%for user in users%}
+      <li>
+        User Info
+        <ul>
+          <li>First Name: {{user.first_name}}</li>
+          <li>Last Name: {{user.last_name}}</li>
+          <li>Email: {{user.email}}</li>
+        </ul>
+      </li>
+      {%endfor%}
+    </ol>
+  </body>
+</html>

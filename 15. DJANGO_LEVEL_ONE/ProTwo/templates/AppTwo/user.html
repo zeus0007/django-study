@@ -6,17 +6,17 @@
   </head>
   <body>
     <h1>Here are your users:</h1>
+    {% if users %}
     <ol>
       {%for user in users%}
-      <li>
-        User Info
-        <ul>
-          <li>First Name: {{user.first_name}}</li>
-          <li>Last Name: {{user.last_name}}</li>
-          <li>Email: {{user.email}}</li>
-        </ul>
-      </li>
+      <li>User Info</li>
+      <ul>
+        <li>First Name: {{user.first_name}}</li>
+        <li>Last Name: {{user.last_name}}</li>
+        <li>Email: {{user.email}}</li>
+      </ul>
       {%endfor%}
     </ol>
+    {%endif%}
   </body>
 </html>
